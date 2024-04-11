@@ -20,6 +20,9 @@ namespace calculator{
             else if(c == '/'){
                 Console.Writeline(a/b);
             }
+            else if(c == '%'){
+                Console.Writeline(a%b);
+            }
             else{
                 Console.Writeline('ERROR');
             }
