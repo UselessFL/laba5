@@ -18,7 +18,13 @@ namespace calculator{
                 Console.Writeline(a*b);
             }
             else if(c == '/'){
-                Console.Writeline(a/b);
+                if (b == 0 {
+                    Console.Writeline(ERROR nelza na nol delit)
+                })
+                else(
+                    Console.Writeline(a/b);
+                )
+                
             }
             else{
                 Console.Writeline('ERROR');
